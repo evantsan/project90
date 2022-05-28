@@ -1,0 +1,40 @@
+#did{
+    width: 600px;
+    height: 200px;
+    padding: 30px;
+    border-radius: 30px;
+    border: 2px ridge black;
+}
+h1,h2,h3,input{
+    font-family: 'IBM Plex Sans Devanagari', sans-serif !important;
+}
+hr{
+    width: 0%;
+    min-width: 20%;
+    max-width: 100%;
+    margin: 0 auto;
+    border: none;
+    border-bottom: 1px solid #666;
+    position: relative;
+    transition: box-shadow 200ms ease-in-out;
+    box-shadow: 0px 0px 0px 0px #f9f9f9;
+  }
+  body{
+background: -webkit-linear-gradient(top left, #845EC2, #D65DB1,#FF6F91,#FF9671,#FFC75F,#F9F871);
+background: -moz-linear-gradient(top left, #845EC2, #D65DB1,#FF6F91,#FF9671,#FFC75F,#F9F871);
+background: linear-gradient(to bottom right, #845EC2, #D65DB1,#FF6F91,#FF9671,#FFC75F,#F9F871);
+  }
+  button{
+      height: 50px;
+      width: 400px;
+      border-radius: 15px;
+      background-color: greenyellow;
+  }
+  #output{
+    background: white;
+    border-radius: 10px;
+    border-top: 10px solid #AA4465; 
+    padding: 10px;
+    float: none;
+    text-align: left;
+  }
